@@ -20,9 +20,5 @@
     "preact": "^10.7.0",
     "prettier": "2.6.2",
     "tailwindcss": "^3.0.23"
-  },
-  "dependencies": {
-    "install": "^0.13.0",
-    "npm": "^8.6.0"
   }
 }
