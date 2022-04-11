@@ -1,0 +1,28 @@
+{
+  "name": "Juan M. Rada - Blog",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "@astrojs/preact": "^0.0.2",
+    "@astrojs/tailwind": "^0.0.2",
+    "@headlessui/react": "^1.5.0",
+    "@heroicons/react": "^1.0.6",
+    "astro": "^0.25.4",
+    "autoprefixer": "^10.4.4",
+    "canvas-confetti": "^1.5.1",
+    "postcss": "^8.4.12",
+    "preact": "^10.7.0",
+    "prettier": "2.6.2",
+    "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "install": "^0.13.0",
+    "npm": "^8.6.0"
+  }
+}

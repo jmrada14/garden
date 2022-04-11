@@ -1,0 +1,27 @@
+---
+import List from "./List.astro"
+import Tab from "./Tab.astro"
+import '../styles/global.css'
+---
+
+<section class="bg-white dark:bg-slate-800" id="header-intro">
+  <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8 lg:flex lg:justify-between">
+    <div class="max-w-xl">
+      <h1 class="text-4xl font-bold font-merriweather text-stone-800 dark:text-stone-200 sm:text-4xl sm:tracking-tight lg:text-4xl">
+        Hi there <span class="wave-fn">👋🏼</span>
+      </h1>
+      <div class=" text-left my-2 w-full">
+        <h2 class="text-3xl text-stone-700 dark:text-stone-200 py-1 font-inter">
+          I'm <span class="underline decoration-pink-400">Juan</span> a Venezuelan software engineer and developer based in NYC🗽
+        </h2>
+      </div>
+      <p class="text-2xl text-stone-600 dark:text-stone-300 py-1 font-inter">
+        I love designing, and building systems, and software that helps people. I'm currently working at Infosys. There
+        I spend my days making sure that the products I build are high quality and our users are receiving the
+        experience that they deserve.
+      </p>
+      <List />
+      <Tab />
+    </div>
+  </div>
+</section>

@@ -1,0 +1,20 @@
+---
+// Click button, get confetti!
+import Confetti from "./Confetti.jsx";
+import ThemeToggle from "./ThemeToggle.jsx";
+---
+<div>
+  <div class="hidden sm:block">
+    <div class="border-b border-stone-100 dark:border-stone-800">
+      <nav class="-mb-px flex" aria-label="Tabs">
+        <div class="w-1/3 py-4 px-1 text-center font-medium text-3xl"><ThemeToggle client:visible/></div>
+        <div class="w-1/3 py-4 px-1 text-center font-medium text-3xl"><Confetti client:visible/></div>
+        <div class="w-1/3 py-4 px-1 text-center font-medium text-3xl text-slate-800"><button> 🧮 </button></div>
+        
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+
